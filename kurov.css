@@ -2830,12 +2830,12 @@ th {
 	padding: 8px;
 	line-height: 1.42857143;
 	vertical-align: top;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #ddd
 }
 
 .table>thead>tr>th {
 	vertical-align: bottom;
-	border-bottom: 2px solid #ddd;
+	border-bottom: 2px solid #ddd
 }
 
 .table>caption+thead>tr:first-child>td,
@@ -6552,6 +6552,15 @@ button.list-group-item-danger.active:hover {
 
 .panel-body {
 	padding: 15px
+}
+
+.border {
+	background-color: #fffdf4;
+	padding: 10px;
+	margin-bottom: 14px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0.5,0,0,0.1);
 }
 
 .panel-heading {

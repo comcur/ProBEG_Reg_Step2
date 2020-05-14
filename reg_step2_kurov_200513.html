@@ -167,121 +167,137 @@
 							</h3>
 						</div>
 						<div class="panel-body">
-							<p>2,9% от суммы оплаты забирает себе аггрегатор платежей; ещё 3% — комиссия ПроБЕГа. Таким
-								образом, вы получите 94,1% с каждого платежа.</p><br />
-							<h4>Стоимость регистрации</h4>
-							<p>В первой строке укажите, до какой даты действуют цены в данном столбце. Ненужные столбцы
-								оставьте пустыми.
-								Последний столбец обязательно заполните.</p>
-							<p>Для дистанций, регистрация на которые бесплатная, просто поставьте 0 в последний столбец и всё.
-							</p>
-							<p>Специальные цены для детей и пенсионеров можно не указывать. Если укажете, они будут действовать
-								до закрытия регистрации. Если вам нужна более тонкая настройка, <a href="#"
-									id="send_to_info_page">напишите нам</a>.</p>
-							<p>Вы сможете в любой момент изменить введённые сейчас суммы и даты, <i>а также количество
-									изменений стоимости регистрации</i>.</p>
-							<table class="table table-condensed">
-								<tr class="text-center info">
-									<th>Дистанция</th>
-									<th colspan="5" class="text-center">До какого дня включительно действует цена</th>
-								</tr>
-								<tr class="text-center">
-									<td></td>
-									<td><input name="price_date_1" type="date" /></td>
-									<td><input name="price_date_2" type="date" /></td>
-									<td><input name="price_date_3" type="date" /></td>
-									<td><input name="price_date_4" type="date" /></td>
-									<td>Цена до окончания регистрации<br />(29.12.2020)</td>
-								</tr>
-								<tr class="warning">
-									<th colspan="6" class="text-center">Введите стоимость регистрации для дистанции [выбранная
-										дистанция]
-									</th>
-								</tr>
-								<tr class="text-center">
-									<td rowspan="5" style="vertical-align: middle">10 км</td>
-									<td><input name="price_race_64075_date_1" type="number" /></td>
-									<td><input name="price_race_64075_date_2" type="number" /></td>
-									<td><input name="price_race_64075_date_3" type="number" /></td>
-									<td><input name="price_race_64075_date_4" type="number" /></td>
-									<td><input name="price_race_64075_finish" type="number" class="price_finish" /></td>
-								</tr>
-								<tr class="warning-2">
-									<th colspan="6" class="text-center-small" style="border-left: 1px">Специальные цены для
-										отдельных категорий
-										участников
-									</th>
-								</tr>
-								<tr>
-									<td colspan="4" class="text-right none-line">Специальная цена для мужчин
-										<input name="race_64075_senior_male_age" type="number" style="width:4em;" value="60" />
-										лет и старше
-									</td>
-									<td class="text-center"><input name="price_race_64075_senior_male" type="number" /></td>
-								</tr>
-								<tr>
-									<td colspan="4" class="text-right">Специальная цена для женщин
-										<input name="race_64075_senior_female_age" type="number" style="width:4em;" value="55" />
-										лет и старше
-									</td>
-									<td class="text-center"><input name="price_race_64075_senior_female" type="number" /></td>
-								</tr>
-								<tr>
-									<td colspan="4" class="text-right">Специальная цена для детей &nbsp;
-										<input name="race_64075_young_age" type="number" style="width:4em;" /> лет и младше
-									</td>
-									<td class="text-center"><input name="price_race_64075_young" type="number" /></td>
-								</tr>
-								<tr class="warning">
-									<th colspan="6" class="text-center">Введите стоимость регистрации для дистанции [выбранная
-										дистанция]
-									</th>
-								</tr>
-								<tr class="text-center">
-									<td>5 км</td>
-									<td><input name="price_race_64076_date_1" type="number" /></td>
-									<td><input name="price_race_64076_date_2" type="number" /></td>
-									<td><input name="price_race_64076_date_3" type="number" /></td>
-									<td><input name="price_race_64076_date_4" type="number" /></td>
-									<td><input name="price_race_64076_finish" type="number" class="price_finish" /></td>
-								</tr>
-								<tr>
-									<td colspan="5" class="text-right">Специальная цена для мужчин
-										<input name="race_64076_senior_male_age" type="number" style="width:8em;" value="60" />
-										лет и старше
-									</td>
-									<td class="text-center"><input name="price_race_64076_senior_male" type="number" /></td>
-								</tr>
-								<tr>
-									<td colspan="5" class="text-right">Специальная цена для женщин
-										<input name="race_64076_senior_female_age" type="number" style="width:8em;" value="55" />
-										лет и старше
-									</td>
-									<td class="text-center"><input name="price_race_64076_senior_female" type="number" /></td>
-								</tr>
-								<tr>
-									<td colspan="5" class="text-right">Специальная цена для детей
-										<input name="race_64076_young_age" type="number" style="width:8em;" /> лет и младше
-									</td>
-									<td class="text-center"><input name="price_race_64076_young" type="number" /></td>
-								</tr>
-								<tr class="warning">
-									<td colspan="6">&nbsp;</td>
-								</tr>
-							</table>
-							<h4>Футболки</h4>
-							<div class="checkbox"><label><input type="radio" name="tshirts" value="1" />
-									Сразу добавить вопрос о размере футболки. Футболки достанутся всем участникам бесплатно
-								</label></div>
-							<div class="checkbox"><label><input type="radio" name="tshirts" value="2" />
-									Сразу добавить вопрос о размере футболки. Футболка стоит
-									<input name="tshirt_price" type="number" /> рублей, можно её не заказывать
-								</label></div>
-							<div class="checkbox"><label><input type="radio" name="tshirts" value="3" checked />
-									Не задавать вопрос о размере футболки
-								</label></div>
-							<p class="text-center"><input type="submit" name="frmRegistration_submit" id="btnSubmit"
-									value="Сохранить" class="btn btn-success" disabled /></p>
+							<div class="border">
+								<p>2,9% от суммы оплаты забирает себе аггрегатор платежей; ещё 3% — комиссия ПроБЕГа. Таким
+									образом, вы получите 94,1% с каждого платежа.</p><br />
+								<h4>Стоимость регистрации</h4>
+								<p>В первой строке укажите, до какой даты действуют цены в данном столбце. Ненужные столбцы
+									оставьте пустыми.
+									Последний столбец обязательно заполните.</p>
+								<p>Для дистанций, регистрация на которые бесплатная, просто поставьте 0 в последний столбец и
+									всё.
+								</p>
+								<p>Специальные цены для детей и пенсионеров можно не указывать. Если укажете, они будут
+									действовать
+									до закрытия регистрации. Если вам нужна более тонкая настройка, <a href="#"
+										id="send_to_info_page">напишите нам</a>.</p>
+								<p>Вы сможете в любой момент изменить введённые сейчас суммы и даты, <i>а также количество
+										изменений стоимости регистрации</i>.</p>
+							</div>
+							<div class="border">
+								<table class="table table-condensed">
+									<tr class="text-center info">
+										<th>Дистанция</th>
+										<th colspan="5" class="text-center">Введите дату: до какого дня включительно действует
+											цена
+										</th>
+									</tr>
+									<tr class="text-center">
+										<td></td>
+										<td><input name="price_date_1" type="date" /></td>
+										<td><input name="price_date_2" type="date" /></td>
+										<td><input name="price_date_3" type="date" /></td>
+										<td><input name="price_date_4" type="date" /></td>
+										<td>Цена до окончания регистрации<br />(29.12.2020)</td>
+									</tr>
+									<tr class="warning">
+										<th colspan="6" class="text-center">Введите стоимость регистрации для дистанции [выбранная
+											дистанция]
+										</th>
+									</tr>
+									<tr class="text-center">
+										<td rowspan="5"
+											style="vertical-align: middle; border-right: 1px solid #ddd; font-weight: 700; background-color: #fffdf4;">
+											10 км</td>
+										<td><input name="price_race_64075_date_1" type="number" /></td>
+										<td><input name="price_race_64075_date_2" type="number" /></td>
+										<td><input name="price_race_64075_date_3" type="number" /></td>
+										<td><input name="price_race_64075_date_4" type="number" /></td>
+										<td><input name="price_race_64075_finish" type="number" class="price_finish" /></td>
+									</tr>
+									<tr class="warning-2">
+										<th colspan="6" class="text-center-small">Специальные цены для отдельных категорий
+											участников
+										</th>
+									</tr>
+									<tr>
+										<td colspan="4" class="text-right">Для мужчин
+											<input name="race_64075_senior_male_age" type="number"
+												style="width:4em; text-align: center;" value="60" />
+											лет и старше
+										</td>
+										<td class="text-center"><input name="price_race_64075_senior_male" type="number" /></td>
+									</tr>
+									<tr>
+										<td colspan="4" class="text-right">Для женщин
+											<input name="race_64075_senior_female_age" type="number"
+												style="width:4em; text-align: center;" value="55" />
+											лет и старше
+										</td>
+										<td class="text-center"><input name="price_race_64075_senior_female" type="number" /></td>
+									</tr>
+									<tr>
+										<td colspan="4" class="text-right">Для детей &nbsp;
+											<input name="race_64075_young_age" type="number"
+												style="width:4em; text-align: center;" />
+											лет и младше
+										</td>
+										<td class="text-center"><input name="price_race_64075_young" type="number" /></td>
+									</tr>
+									<tr class="warning">
+										<th colspan="6" class="text-center">Введите стоимость регистрации для дистанции [выбранная
+											дистанция]
+										</th>
+									</tr>
+									<tr class="text-center">
+										<td>5 км</td>
+										<td><input name="price_race_64076_date_1" type="number" /></td>
+										<td><input name="price_race_64076_date_2" type="number" /></td>
+										<td><input name="price_race_64076_date_3" type="number" /></td>
+										<td><input name="price_race_64076_date_4" type="number" /></td>
+										<td><input name="price_race_64076_finish" type="number" class="price_finish" /></td>
+									</tr>
+									<tr>
+										<td colspan="5" class="text-right">Специальная цена для мужчин
+											<input name="race_64076_senior_male_age" type="number" style="width:8em;" value="60" />
+											лет и старше
+										</td>
+										<td class="text-center"><input name="price_race_64076_senior_male" type="number" /></td>
+									</tr>
+									<tr>
+										<td colspan="5" class="text-right">Специальная цена для женщин
+											<input name="race_64076_senior_female_age" type="number" style="width:8em;"
+												value="55" />
+											лет и старше
+										</td>
+										<td class="text-center"><input name="price_race_64076_senior_female" type="number" /></td>
+									</tr>
+									<tr>
+										<td colspan="5" class="text-right">Специальная цена для детей
+											<input name="race_64076_young_age" type="number" style="width:8em;" /> лет и младше
+										</td>
+										<td class="text-center"><input name="price_race_64076_young" type="number" /></td>
+									</tr>
+									<tr class="warning">
+										<td colspan="6">&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+							<div class="border">
+								<h4>Футболки</h4>
+								<div class="checkbox"><label><input type="radio" name="tshirts" value="1" />
+										Сразу добавить вопрос о размере футболки. Футболки достанутся всем участникам бесплатно
+									</label></div>
+								<div class="checkbox"><label><input type="radio" name="tshirts" value="2" />
+										Сразу добавить вопрос о размере футболки. Футболка стоит
+										<input name="tshirt_price" type="number" /> рублей, можно её не заказывать
+									</label></div>
+								<div class="checkbox"><label><input type="radio" name="tshirts" value="3" checked />
+										Не задавать вопрос о размере футболки
+									</label></div>
+								<p class="text-center"><input type="submit" name="frmRegistration_submit" id="btnSubmit"
+										value="Сохранить" class="btn btn-success" disabled /></p>
+							</div>
 						</div>
 					</div>
 				</form>
